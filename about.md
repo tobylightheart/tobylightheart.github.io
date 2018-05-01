@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is the research blog for Toby Lightheart.
+I just recently submitted my PhD thesis on Constructive Spiking Neural Networks for Simulations of Neuroplasticity.
+On this website I will be discussing technical and conceptual aspects of this research.
+I am also planning to providing regular updates on a number of research projects in machine learning, focusing on algorithms that change the size of artificial neural networks.
+I plan to make regular updates and have comments about the technology that I'm using and share work on GitHub ([github.com/tobylightheart](https://github.com/tobylightheart)).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I have another blog website ([tobylightheart.wordpress.com](https://tobylightheart.wordpress.com)) where I intend to discuss the development of learning guides for people and a range of philosophical topics.
