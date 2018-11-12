@@ -10,8 +10,8 @@ title: Toby Lightheart Research
 email: toby.lightheart---at---gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Toby Lightheart's machine learning research website.
-  Regular updates will be provided on the development of algorithms for changing the size of artificial neural networks.
-  Blog posts will also include comments on related technology and social implications of artificial intelligence.
+  Updates on the development of algorithms for changing the size of artificial neural networks.
+  Posts may also comment on related technology and social implications of artificial intelligence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tobylightheart.github.io" # the base hostname & protocol for your site
 twitter_username: tobylightheart
