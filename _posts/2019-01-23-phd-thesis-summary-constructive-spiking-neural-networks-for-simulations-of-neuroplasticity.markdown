@@ -15,6 +15,7 @@ The thesis combined topics in machine learning and neuroscience, in particular:
 
 A number of new concepts were developed to combine constructive algorithms, spiking neurons and STDP, and to develop constructive algorithms that could be implemented in simulations of biological networks.
 This post will summarise the conceptual and theoretical developments and simulations presented in the thesis.
+The PhD thesis can be accessed in full at: [http://hdl.handle.net/2440/115481](http://hdl.handle.net/2440/115481)
 
 ## Designing Constructive Neural Networks
 
