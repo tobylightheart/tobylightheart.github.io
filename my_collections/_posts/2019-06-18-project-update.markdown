@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project Updates 2019-06-17"
-date:   2019-05-18 17:32:00 +0930
+date:   2019-06-18 17:32:00 +0930
 categories: [Updates]
 tags: [Data Collaboration, AUSRT, Constructive Algorithms]
 ---
