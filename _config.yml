@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Toby Lightheart Research
+title: Toby Lightheart > Machine Learning Research
 email: toby.lightheart---at---gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Toby Lightheart's machine learning research website.
@@ -19,3 +19,13 @@ github_username:  tobylightheart
 
 # Build settings
 markdown: kramdown
+
+collections_dir: my_collections
+
+collections:
+  publications:
+    output: "true"
+  study:
+    output: "true"
+  writing:
+    output: "true"

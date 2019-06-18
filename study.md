@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Study
-permalink: /Study/
+permalink: /study/
 ---
 
 I plan to experiment with using this website as a place to write and record study notes.
