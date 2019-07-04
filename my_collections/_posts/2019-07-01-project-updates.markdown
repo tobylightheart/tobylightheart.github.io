@@ -66,11 +66,11 @@ See my Wordpress site ([https://tobylightheart.wordpress.com](https://tobylighth
 
 ## Tasks This Week
 
-1. Survey recent literature on constructive neural networks and reinforcement learning for physics simulations/robotics. **[Due: 2019-07-03, Wednesday]**
-  1. Conference paper: Reinforcement learning with neural network construction for visual control
-  2. Conference paper: Self-supervised motion control learning with reinforcement-based target selection
+1. Survey recent literature on constructive neural networks and reinforcement learning for physics simulations/robotics. **[Due: 2019-07-03, Wednesday]**  
+    1. Conference paper: Reinforcement learning with neural network construction for visual control
+    2. Conference paper: Self-supervised motion control learning with reinforcement-based target selection
 2. Install and test Malmo **[Aim: 2019-07-03, Wednesday]**
 3. Test/Debug Dynamic Node Creation code (NumPy). **[Aim: 2019-07-04, Thursday]**
-4. Adelaide University Solar Race Team
-  1. Add plots to new AUSRT GUI. **[Aim: 2019-07-04, Thursday]**
-  2. Add plots from simulated telemetry **[Aim: 2019-07-04, Thursday]**
+4. Adelaide University Solar Race Team  
+    1. Add plots to new AUSRT GUI. **[Aim: 2019-07-04, Thursday]**
+    2. Add plots from simulated telemetry **[Aim: 2019-07-04, Thursday]**

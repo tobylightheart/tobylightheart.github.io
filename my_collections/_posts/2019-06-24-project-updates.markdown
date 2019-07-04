@@ -77,6 +77,6 @@ My projects related to learning techniques for people and other topics of writin
 3. Review and suggest questions for NfP meeting. **[Aim: 2019-06-25, Tuesday]**
 4. Add plots from simulated telemetry **[Aim: 2019-06-26, Wednesday]**
 5. Review literature on constructive neural networks and reinforcement learning. **[Due: 2019-06-26, Wednesday]**
-  1. Conference paper: Reinforcement learning with neural network construction for visual control
-  2. Conference paper: Self-supervised motion control learning with reinforcement-based target selection
+    1. Conference paper: Reinforcement learning with neural network construction for visual control
+    2. Conference paper: Self-supervised motion control learning with reinforcement-based target selection
 6. Install and test Malmo (https://www.aicrowd.com/challenges/neurips-2019-minerl-competition) **[Aim: 2019-06-27, Thursday]**
