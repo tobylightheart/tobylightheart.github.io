@@ -65,7 +65,7 @@ I will try to continue writing about other topics on my Wordpress site ([https:/
 - Adelaide University Solar Race Team
     - Develop GUI for telemetry and predictions.
 
-## Selected Tasks
+### Selected Tasks
 
 1. Review current progress and development plan
 2. Survey recent literature on constructive neural networks and reinforcement learning for physics simulations/robotics
