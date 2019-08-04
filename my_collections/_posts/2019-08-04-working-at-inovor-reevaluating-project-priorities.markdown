@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Working at Inovor; Reevaluating Project Priorities"
-date:   2019-08-04 10:40:00 +0930
+title:  "[Update] Working at Inovor; Reevaluating Project Priorities"
+date:   2019-08-04 11:25:00 +0930
 categories: [Updates]
 tags: [Employment, Data Collaboration, AUSRT, Constructive Algorithms]
 ---

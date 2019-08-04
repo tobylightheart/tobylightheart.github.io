@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project Updates 2019-06-24"
+title:  "[Update] Data Storage and Backups; Microcontrollers and Robots; Data Collaboration and AUSRT; Constructive Algorithms and MineRL"
 date:   2019-06-24 12:00:00 +0930
 categories: [Updates]
 tags: [Data Collaboration, AUSRT, Constructive Algorithms]

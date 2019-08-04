@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project Updates 2019-07-03"
+title:  "[Update] AUSRT GUI; MNIST Data for Constructive Algorithms; Conferences and Competitions"
 date:   2019-07-03 12:07:00 +0930
 categories: [Updates]
 tags: [Data Collaboration, AUSRT, Constructive Algorithms]

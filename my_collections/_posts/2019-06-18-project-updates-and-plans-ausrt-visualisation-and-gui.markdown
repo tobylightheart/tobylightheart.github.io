@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project Updates 2019-06-17"
+title:  "[Update] Project Updates and Plans; AUSRT Visualisations and GUI; Computer GPU Setup; Conferences Paper Ideas"
 date:   2019-06-18 17:32:00 +0930
 categories: [Updates]
 tags: [Data Collaboration, AUSRT, Constructive Algorithms]
