@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Return 1: Research, Learning, and Webpage Design"
+date:   2021-08-24 21:53:00 +0930
+categories: [Updates]
+tags: [Research, Learning, Webpages]
+---
+
+I'm coming back to this website to try to restart some of my own learning and research.
+My specific focuses have changed slightly. I'm interested in:
+
+1. Constructive and selective neural network algorithms as a path towards online continuous learning.
+2. Non-traditional open-access methods for communicating research.
+3. Techniques for learning and study.
+
+The constructive and selective neural network algorithms requires fundamental investigation.
+I will put effort into simple mathematical and technical developments to understand how neuron construction and selection can be performed and theoretical advantages.
+
+If I am going to spend effort on reviewing literature, I want to work towards an approach to teasing apart the content and refactoring it into a more valuable reference.
+I'm going to experiment with the structure of webpages with hperlinks to do this. 
+This will be related to (2) non-traditional methods for communicating research and (3) techniques for learning and study.
