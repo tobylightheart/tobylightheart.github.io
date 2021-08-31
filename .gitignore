@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 _posts/2016-04-19-welcome-to-jekyll.markdown
 .GemfileBackup/
+vendor/
