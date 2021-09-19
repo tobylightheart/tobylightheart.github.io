@@ -141,7 +141,11 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/NewJournal/Title</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp</li>
+
+<li>$:/config/RelinkOnRename</li>
 
 <li>$:/core</li>
 
@@ -159,9 +163,13 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/search-list/selected-item--874113614</li>
+
 <li>$:/state/sidebar</li>
 
 <li>$:/state/tab-1749438307</li>
+
+<li>$:/state/tab-2065006209</li>
 
 <li>$:/state/tab/sidebar--595412856</li>
 
@@ -175,13 +183,21 @@ Error message and password prompt
 
 <li>Grounding Symbols</li>
 
+<li>Learning Resource Selection</li>
+
 <li>Learning Techniques</li>
 
 <li>Machine Intelligence</li>
 
-<li>Metalearning (Human)</li>
+<li>Mapping Learning Goals</li>
+
+<li>Metalearning for People</li>
 
 <li>Overview</li>
+
+<li>Structured Note-Taking</li>
+
+<li>Types of Learning</li>
 
 </ul>
 </p>
@@ -197,8 +213,14 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20210918052659344" modified="20210918052707333" title="$:/config/NewJournal/Title">
+<pre>YYYY-MM-DD</pre>
+</div>
 <div created="20210914124918750" modified="20210914124918750" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp">
 <pre>show</pre>
+</div>
+<div created="20210918050347056" modified="20210918050347056" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23">
 <pre>{
@@ -10480,11 +10502,17 @@ Error message and password prompt
 <div created="20210914124445630" modified="20210914124503164" title="$:/SiteTitle">
 <pre>Toby Lightheart</pre>
 </div>
+<div created="20210918045555565" modified="20210918045556086" title="$:/state/search-list/selected-item--874113614">
+<pre>Learning Techniques-primaryList</pre>
+</div>
 <div created="20210914130733947" modified="20210914130735496" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20210914124940453" modified="20210914124940453" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Plugins</pre>
+<div created="20210914124940453" modified="20210918052734375" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/KeyboardShortcuts</pre>
+</div>
+<div created="20210918052610600" modified="20210918052630912" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/General</pre>
 </div>
 <div created="20210914124907831" modified="20210914125425913" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Recent</pre>
@@ -10492,7 +10520,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210914125611372" list="[[Grounding Symbols]] [[Machine Intelligence]] Overview [[Metalearning (Human)]] [[Learning Techniques]]" modified="20210914132856847" title="$:/StoryList">
+<div created="20210918043545017" list="[[Grounding Symbols]] [[Learning Techniques]] [[Mapping Learning Goals]] [[Types of Learning]] Overview [[Metalearning for People]] [[Structured Note-Taking]] [[Learning Resource Selection]]" modified="20210918052925399" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -10616,17 +10644,26 @@ The TiddlyWiki format will be used to experiment with recursive writing of defin
 * [[Generative Pre-Trained Transformer]]
 * [[Adam Optimizer]]</pre>
 </div>
-<div created="20210914132902551" modified="20210914135111549" title="Learning Techniques">
-<pre>Learning can be done intuitively; however, the right understanding and techniques can help people learning significantly more effectively. The approach to learning should depend on the type or activity.
+<div created="20210918043618486" modified="20210919130602706" title="Learning Resource Selection">
+<pre>Learning can be done from resources that provide explanations and examples. This will typically require a period of searching for and evaluating potential learning resources. Resources can include:
 
-Fundamental [[Learning Types]] that will be include:
+* Writing: textbooks, articles, instructions, documentation, etc.
+* Audio-visual: videos, animations, audio-descriptions, etc.
+* Teachers: tutors, coaches, lecturers, etc.
 
-* [[Understanding]]: Understanding includes the recall and contextualisation of information.
-* [[Skills]]: Skills are exercised to perform actions. Greater skill often means having greater control of the speed, precision and accuracy that a task is performed. 
-* [[Self-Awareness]]: Self-awareness is a key skill or ability to learn from practice and use self-feedback to improve.
-* [[Self-Control]]: Self-control includes the self-regulation of actions, emotions and motivation. Self-motivation is often an important 
-* [[Ability Management]]: Lack of ability or disability can impede some learning activities. Ability management can include efforts (training) to improve an ability or searching for ways to manage a disability and achieve learning goals.
-</pre>
+Courses typically are delivered by a teacher to provide instructions and guidance. Course material is a collection of learning resources that can include writing and audio-visual components. A good teacher will be skilful at providing instruction, good at selecting learning resources, and good at structuring the content and the pace of delivery.
+
+Independent learners may need to develop their own version of a course based on their [[Learning Goals]].
+
+Learning can also be done in the absence of pre-existing resources on a topic through independent exploration and investigation. However, this can make progress and successful learning outcomes more challenging.</pre>
+</div>
+<div created="20210918051600892" modified="20210918051901341" tags="" title="Learning Techniques">
+<pre>Learning techniques provide instructions and approaches to perform learning. 
+
+* [[Mapping Learning Goals]]
+* [[Resource Selection]]
+* [[Structured Note-Taking]]
+* [[Spaced Repetition]]</pre>
 </div>
 <div created="20210914130756205" modified="20210914132702557" tags="" title="Machine Intelligence">
 <pre>Machine Intelligence can be concerned with the practical: 
@@ -10642,14 +10679,27 @@ Machine Intelligence can also be concerned with the speculative and philosophica
 * [[Artificial General Intelligence]]
 * [[AI Safety]]</pre>
 </div>
-<div created="20210914125122049" modified="20210914132853488" tags="" title="Metalearning (Human)">
+<div created="20210918052949404" modified="20210918053359950" title="Mapping Learning Goals">
+<pre>Learning goals can be important to successful learning outcomes. [[Structured Courses]] tend to provide learning goals of their own; however, independent learners must develop their own learning goals.
+
+Learning goals can be effectively developed in terms of [[Topics of Study]] and [[Projects]] and should reference [[Types of Learning]].</pre>
+</div>
+<div created="20210914125122049" modified="20210918052438306" tags="" title="Metalearning for People">
 <pre>Metalearning when done by humans is learning about learning. See [[https://en.wikipedia.org/wiki/Meta_learning]]. 
+
+This investigation is using a classification of [[Types of Learning]]:
+
+* [[Understanding]]
+* [[Skills]]
+* [[Awareness]]
+* [[Self-Control]]
+* [[Abilities]]
 
 [[Learning Techniques]] of interest and study include:
 
-* [[Grounding Symbols]]
+* [[Mapping Learning Goals]]
 * [[Resource Selection]]
-* [[Note-Taking]]
+* [[Structured Note-Taking]]
 * [[Spaced Repetition]]
 
 Human metalearning can include the study of:
@@ -10659,7 +10709,7 @@ Human metalearning can include the study of:
 * [[Epistemology]]
 * [[Pedagogy]]
 
-Metalearning is also a topic in [[Computer Science]], see [[https://en.wikipedia.org/wiki/Meta_learning_(computer_science)]].
+Metalearning is also a topic in [[Computer Science]], see [[https://en.wikipedia.org/wiki/Meta_learning_(computer_science)]]. This is important in the investigation into [[Machine Intelligence]] presented in this Wiki.
 
 Resources reviewed for Metalearning include:
 
@@ -10668,13 +10718,53 @@ Resources reviewed for Metalearning include:
 * [[Study Power (Books)]], Vol I and II
 * [[The Learning Brain (Lectures)]], Prof Thad Polk, The Great Courses</pre>
 </div>
-<div created="20210914124600609" modified="20210914135232111" tags="" title="Overview" type="text/vnd.tiddlywiki">
+<div created="20210914124600609" modified="20210918052335078" tags="" title="Overview" type="text/vnd.tiddlywiki">
 <pre>This notebook is an experiment in learning using TiddlyWiki to develop ideas and take notes. Many of the ideas in this notebook are original and may not have supporting experimental evidence. References will be included on occasion.
 
 Primary topics in this notebook include:
 
-* [[Metalearning (Human)]]
+* [[Metalearning for People]]
 * [[Machine Intelligence]]</pre>
+</div>
+<div created="20210918045201334" modified="20210919132404707" title="Structured Note-Taking">
+<pre>The structure of notes should reflect the processes required for gaining and improving [[Understanding]]: elaborating and connecting concepts. A section of a notebook should contain the following:
+
+* A concept name or phrase (the heading).
+* A description of the concept (succinct prose, equations, diagrams, etc).
+* A list of related concepts with: their relationship and a link or page number to find a description.
+
+The notebook should form a large collection of interlinked sections. The list of related concepts can be put into a table to separate the concept name from the page number and the description of the relationship:
+
+Related concept | Link or book-page number | Relationship to the current concept
+
+This list can be used for self-testing by hiding the 'Relationship' column and practicing recalling the meaning of the related concepts. Confirm or correct the recalled meaning by visiting the link or page describing the concept.
+
+This list of related concepts should be reviewed and added to regularly as finding new relationships connecting concepts reflects a deepening understanding.
+
+!! Learning by Note-Taking
+
+Creating a notebook with the right page structure can be used to learn new concepts and then be used for study and revision:
+
+# Find a concept that you want to learn, no matter how removed from your current understanding. 
+# Find or develop a description of it to use in your notebook.
+# Write the list of related concepts and phrases, starting with concepts and jargon in the description. Focus particularly on concepts that you do *not* understand.
+# Create a new section for related concepts (especially those you do not understand well), repeating steps 1-3.</pre>
+</div>
+<div created="20210914132902551" modified="20210918052317474" title="Types of Learning">
+<pre>General types of learning can be grouped into high-level categories:
+
+* [[Understanding]]: Understanding includes the recall and contextualisation of information.
+* [[Skills]]: Skills are exercised to perform actions. Greater skill often means having greater control of the speed, precision and accuracy that a task is performed. 
+* [[Awareness]]: Awareness is a combination of cognitive (understanding) and perceptual (implicit skill and ability). Self-awareness allows us to self-correct and learn. Awareness of the external world can improve our ability to act and respond.
+* [[Self-Control]]: Self-control includes the self-regulation of actions, emotions and motivation. Self-motivation is also an important determinant of success.
+
+Abilities also underpin much learning. There are different types of abilities:
+
+* Sensory-perceptual abilities (see, hear, feel, proprioception, etc)
+* Motor abilities (strength and coordination of our body)
+* Cognitive abilities (attention and types of memory) 
+
+Some abilities can be learned, but others are largely fixed. More generally, we should consider learning [[Ability Management]], which can include efforts to improve an ability (training) or developing ways to manage a disability and achieve [[Learning Goals]].</pre>
 </div>
 
 
