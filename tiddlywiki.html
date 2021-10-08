@@ -163,6 +163,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/Link/-882435186/search</li>
+
 <li>$:/state/search-list/selected-item--874113614</li>
 
 <li>$:/state/sidebar</li>
@@ -189,15 +191,25 @@ Error message and password prompt
 
 <li>Machine Intelligence</li>
 
+<li>Machine Learning</li>
+
 <li>Mapping Learning Goals</li>
 
 <li>Metalearning for People</li>
 
 <li>Overview</li>
 
+<li>Reinforcement Learning</li>
+
 <li>Structured Note-Taking</li>
 
+<li>The Meaning of Life</li>
+
 <li>Types of Learning</li>
+
+<li>Understanding</li>
+
+<li>What is Life</li>
 
 </ul>
 </p>
@@ -10502,6 +10514,9 @@ Error message and password prompt
 <div created="20210914124445630" modified="20210914124503164" title="$:/SiteTitle">
 <pre>Toby Lightheart</pre>
 </div>
+<div created="20211005115231563" modified="20211005115239556" title="$:/state/Link/-882435186/search">
+<pre></pre>
+</div>
 <div created="20210918045555565" modified="20210918045556086" title="$:/state/search-list/selected-item--874113614">
 <pre>Learning Techniques-primaryList</pre>
 </div>
@@ -10520,7 +10535,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210918043545017" list="[[Grounding Symbols]] [[Learning Techniques]] [[Mapping Learning Goals]] [[Types of Learning]] Overview [[Metalearning for People]] [[Structured Note-Taking]] [[Learning Resource Selection]]" modified="20210918052925399" title="$:/StoryList">
+<div created="20211008115929612" list="Overview [[Machine Intelligence]] [[Machine Learning]] [[Reinforcement Learning]]" modified="20211008115943579" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -10679,6 +10694,13 @@ Machine Intelligence can also be concerned with the speculative and philosophica
 * [[Artificial General Intelligence]]
 * [[AI Safety]]</pre>
 </div>
+<div created="20210929115051368" modified="20210929125235885" title="Machine Learning">
+<pre>Machine learning is the name for techniques that allow a machine to acquire a skill or ability or perform a task. Machine learning techniques are often broadly grouped into categories based on type of feedback received during learning: 
+
+* [[Unsupervised Learning]] techniques do //not// receive external feedback on task performance. The learner must look for patterns in the input alone.
+* [[Reinforcement Learning]] techniques receive a scalar, sometime intermittent, numerical signal indicating positive or negative performance.
+* [[Supervised Learning]] techniques typically have inputs paired with desired outputs, which allows precise calculations of error for feedback and correction.</pre>
+</div>
 <div created="20210918052949404" modified="20210918053359950" title="Mapping Learning Goals">
 <pre>Learning goals can be important to successful learning outcomes. [[Structured Courses]] tend to provide learning goals of their own; however, independent learners must develop their own learning goals.
 
@@ -10718,13 +10740,31 @@ Resources reviewed for Metalearning include:
 * [[Study Power (Books)]], Vol I and II
 * [[The Learning Brain (Lectures)]], Prof Thad Polk, The Great Courses</pre>
 </div>
-<div created="20210914124600609" modified="20210918052335078" tags="" title="Overview" type="text/vnd.tiddlywiki">
-<pre>This notebook is an experiment in learning using TiddlyWiki to develop ideas and take notes. Many of the ideas in this notebook are original and may not have supporting experimental evidence. References will be included on occasion.
+<div created="20210914124600609" modified="20211006115958916" tags="" title="Overview" type="text/vnd.tiddlywiki">
+<pre>This notebook is an experiment in learning using TiddlyWiki (https://www.tiddlywiki.com) to develop ideas and take notes. Many of the ideas in this notebook are original and may not have supporting experimental evidence. References will be included on occasion.
 
-Primary topics in this notebook include:
+The high-level topics in this notebook:
 
+* [[Machine Intelligence]]
 * [[Metalearning for People]]
-* [[Machine Intelligence]]</pre>
+* [[The Meaning of Life]]</pre>
+</div>
+<div created="20211008120009259" modified="20211008125906730" title="Reinforcement Learning">
+<pre>Reinforcement learning is typically formulated as: an agent and the world are in state $$s$$; the agent takes action $$a$$; the agent-world state becomes $$s'$$ and the receives reward $$r$$ which is a real number. The goal of reinforcement learning is to maximise reward (or minimise loss) over some episode of learning.
+
+The primary components of a fully-observable Markov Decision Process (https://en.wikipedia.org/wiki/Markov_decision_process) are:
+
+*[[States]] can be discrete or continuous and is often represented numerically using multiple dimensions. The transitions between states can be deterministic or probabilistic.
+*[[Actions]] can be discrete or continuous and may be multi-dimensional.
+*[[Reward]] is usually considered to come from the environment depending on the state and action. See the [[Reward]] tiddler for some philosophical examination of environment rewards versus internal rewards.
+
+A partially-observable Markov decision (https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process) process adds:
+
+* Observations give evidence of the current (hidden) state.
+
+There are a variety of techniques that are used in reinforcement learning. Many techniques focus on learning a value function that estimates the future reward of the available actions in the current state. Many continuous state and action spaces can benefit from use of function-approximation methods such as artificial neural networks. See [[Deep Q-Networks]].
+
+Reinforcement learning is has been used for creating simulated physical agents that learn to perform coordinated motor actions. This often takes many (sometimes millions) of learning iterations. Although this demonstrates the power of reinforcement learning, these types of applications may be a misapplication. See the tiddlers [[Mixed Feedback Learning]] and [[Goal-Action-Reward Cycle]].  </pre>
 </div>
 <div created="20210918045201334" modified="20210919132404707" title="Structured Note-Taking">
 <pre>The structure of notes should reflect the processes required for gaining and improving [[Understanding]]: elaborating and connecting concepts. A section of a notebook should contain the following:
@@ -10750,6 +10790,19 @@ Creating a notebook with the right page structure can be used to learn new conce
 # Write the list of related concepts and phrases, starting with concepts and jargon in the description. Focus particularly on concepts that you do *not* understand.
 # Create a new section for related concepts (especially those you do not understand well), repeating steps 1-3.</pre>
 </div>
+<div created="20211006120025449" modified="20211006120737227" title="The Meaning of Life">
+<pre>The Meaning of Life itself has multiple meanings:
+
+* [[What is Life]]? What does it mean for something to be living?
+* What is the [[Significance of Life]] in general and my (your) life in particular?
+* What is the [[Purpose of Life]] in general and my (your) life in particular?
+
+An answer to these questions should also provide guidance on related questions:
+
+* What makes my life valuable?
+* What is a good life? What is moral and what should I do?
+</pre>
+</div>
 <div created="20210914132902551" modified="20210918052317474" title="Types of Learning">
 <pre>General types of learning can be grouped into high-level categories:
 
@@ -10765,6 +10818,44 @@ Abilities also underpin much learning. There are different types of abilities:
 * Cognitive abilities (attention and types of memory) 
 
 Some abilities can be learned, but others are largely fixed. More generally, we should consider learning [[Ability Management]], which can include efforts to improve an ability (training) or developing ways to manage a disability and achieve [[Learning Goals]].</pre>
+</div>
+<div created="20211002124741794" modified="20211005122323244" title="Understanding">
+<pre>Understanding of a topic results from: having related experiences; learning related information and skills; awareness of the relationships between the topic, experiences, information and skills. In other words, the more connections made between the topic, experiences, information and skills, the more comprehensive the understanding.
+
+Take apples as an example. Understanding improves with sensory experiences of apples: how the fruit looks, tastes and feels. Understanding of apples could improve learning about the cultivation of apples in orchards and their origins. Understanding the use of apples in various food and drink. Related experiences, information and skills and awareness of relationships deepens an understanding. This applies to all things.
+
+Understanding can have different qualities. An understanding of something can be:
+
+TODO: more here
+
+* Deep or shallow, depending on related experiences and information.
+* Wide or narrow, depending on  extends outside 
+* Accurate or inaccurate, depending on the correctness or error in information and view relationships.
+
+Learning should aim to improve the depth (detail), width (and accuracy of understanding.
+
+Understanding can be contrasted with [[Knowledge]] to better see why understanding is considered here to be a more practical and important learning goal than knowledge. Both &quot;Understanding&quot; and &quot;Knowledge&quot; are topics of philosophical investigation in [[Epistemology]]. For someone to &quot;know&quot; something, it is often stressed that that something needs to be logically true. Otherwise it isn't known and doesn't count as knowledge. 
+
+!! Related Resources
+
+Stanford Encyclopedia of Philosophy:
+
+* Epistemology, https://plato.stanford.edu/entries/epistemology/
+* Understanding, https://plato.stanford.edu/entries/understanding/
+* Knowledge, https://plato.stanford.edu/entries/knowledge-analysis/</pre>
+</div>
+<div created="20211006120745622" modified="20211006123718528" title="What is Life">
+<pre>Living things have common properties, but have resisted a single uncontroversial definition. A new definition is proposed here:
+
+The fundamental components of life are processes of detection and selective action. Life occurs when processes of detection and selective action form a cycle. The cycle can either be repeated in homeostasis or reproduction.
+
+Processes of detection and selective action are present in the transcription of DNA into RNA and the translation of RNA into proteins. Processes of detection and selective action are present in the peripheral and central nervous cells of complex organisms.
+
+Viruses are a fringe case when considering definitions of life. The present definition of life requires action, so an inert virus particle is not living. A virus co-opts the living biological machinery of a cell to reproduce. Similarly, a genome and DNA by itself is not living, because it does not act nor does it detect anything.
+
+The processes of detection and selective action also happen in more abstract conditions of perception and cognition. Processes of detection and selective action exist in communication and creating language.
+
+This definition of life is also intentionally is inclusive of computer and electronic systems that perform detection and selective action. Computers, particularly the CPU and GPU could be considered very basic life. They detect instructions in memory and selectively act on those instructions. Artificial intelligence that performs processes of perception and cognition is also perform abstract processes of detection and selective action.  </pre>
 </div>
 
 
