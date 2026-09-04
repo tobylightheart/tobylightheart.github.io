@@ -16,9 +16,9 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #1a5fb4; // was #2a7ae2 (4.15:1 on the page background — below WCAG AA 4.5:1); now 6.18:1
 
-$grey-color:       #828282;
+$grey-color:       #6f6f6f; // was #828282 (3.78:1 — below AA); now 4.94:1
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 

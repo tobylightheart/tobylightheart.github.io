@@ -75,7 +75,10 @@
             display: none;
         }
 
-        &:hover .trigger {
+        // :focus-within added 2026-09-04 — with :hover alone the menu could
+        // not be opened from the keyboard at all.
+        &:hover .trigger,
+        &:focus-within .trigger {
             display: block;
             padding-bottom: 5px;
         }

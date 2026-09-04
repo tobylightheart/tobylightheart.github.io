@@ -204,3 +204,41 @@ pre {
         }
     }
 }
+
+
+
+/**
+ * Accessibility
+ *
+ * Added 2026-09-04 (G-072). The theme shipped with no focus styling, no skip
+ * link, and a menu that opened on :hover alone — so the small-screen navigation
+ * was unreachable by keyboard.
+ */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 10;
+    padding: 8px 12px;
+    background-color: $background-color;
+    border: 1px solid $grey-color;
+}
+
+.skip-link:focus {
+    left: 8px;
+    top: 8px;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+    outline: 3px solid $brand-color;
+    outline-offset: 2px;
+}
+
+.menu-icon {
+    padding: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
