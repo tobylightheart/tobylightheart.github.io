@@ -261,3 +261,7 @@ My independent research program is working on an instrument to measure memory co
 My interest and early development of ADUS grew from an interest in education. The ADUS framework theory can be expanded to recommended pedagogical practices for improving educational outcomes and effective autodidactism.
 
 I welcome feedback and suggestions on any aspect of this or adjacent work.
+
+---
+
+*Also published on [Substack](https://tobylightheart.substack.com/p/recursive-understanding-improvement). This copy is the original.*
