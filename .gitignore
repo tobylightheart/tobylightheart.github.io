@@ -1,6 +1,4 @@
-_site
-.sass-cache
+Gemfile.lock
+_site/
+.jekyll-cache/
 .jekyll-metadata
-_posts/2016-04-19-welcome-to-jekyll.markdown
-.GemfileBackup/
-vendor/
