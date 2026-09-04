@@ -17,7 +17,7 @@ The core hypotheses presented and their potential impacts on AI safety are:
 3.  A. Understanding improvements can be achieved through construction of neural network modules; B. Constructive algorithms can produce modular, composable, reversible and interpretable components; with C. Human-in-the-loop gating of construction events. Therefore, **network construction** provides multiple avenues to mitigate risks of recursive improvement.
 4.  Recursive understanding improvements are limited by: A. Prerequisite foundational understanding, B. Necessary abilities, disposition, and skills for learning, and C. The necessary quality and quantity of input information. Current AI are primarily limited by B-abilities. Once learning abilities are achieved, the rate of improvement will be limited by A and C, with fundamental limits in accessibility of real world information and limits in the quality of information obtainable from simulations.
 
-These hypotheses collectively form a research proposal for achieving a slow and controlled AI take-off while managing alignment. These are unpacked below into a set of key propositions that signpost the progression of the arguments in this post.
+These hypotheses collectively form a research proposal for achieving a slow and controlled AI takeoff while managing alignment. These are unpacked below into a set of key propositions that signpost the progression of the arguments in this post.
 
 This post outlines a research program that is a synthesis of historical and original lines of research and thought. A reader can skip to Section 4, *Harnesses, growing networks, and human control*, for a high-level description of the network construction research and some recent antecedents. Note that ADUS (abilities, dispositions, understanding, and skills) is referenced, which is defined in Section 1, *A practical intelligence taxonomy*.
 
@@ -38,7 +38,7 @@ This work presents alternatives to common RSI and AI safety concepts, such as th
 7.  Understanding improvement is fundamentally constrained by: the current state of understanding (accuracy, precision and completeness); learning abilities, dispositions and skills; and the quality and quantity of information that can be obtained from interactions including external resources and simulations.
 8.  A harness is a practical requirement for continual learning during operation and can be designed to explicitly target ADUS components of an AI system.
 9.  Growing neural networks (or constructive algorithms) can potentially produce network components that are modular, composable, reversible and interpretable, allowing human-in-the-loop control of improvements.
-10.  An intelligence take-off could be “slow” — due to fundamental limits on understanding — and controllable and interpretable through human management of neural network growth.
+10.  An intelligence takeoff could be “slow” — due to fundamental limits on understanding — and controllable and interpretable through human management of neural network growth.
 
 ## 1.  A practical intelligence ontology
 
@@ -156,9 +156,9 @@ Recursive improvement is already a standard outcome of training neural networks.
 
 Recursive understanding improvement is a natural phenomenon exhibited by people as they learn and by social groups (families, tribes, organisation units, research and software communities, companies, nations, etc.) as they accumulate shared understanding. Recursive improvement of understanding and skills requires sufficiently effective internal consolidation and integration to provide the basis for the next improvement.
 
-This post presents a case for recursive understanding improvement. A deeper analysis of take-off speed is out of scope; however, it is worth touching on the debate (or preemptively opening the can of worms) on AI take-off speeds and recursive self-improvement.
+This post presents a case for recursive understanding improvement. A deeper analysis of takeoff speed is out of scope; however, it is worth touching on the debate (or preemptively opening the can of worms) on AI takeoff speeds and recursive self-improvement.
 
-Eliezer Yudkowsky and Paul Christiano [disagree about the shape of AI take-off](https://www.lesswrong.com/posts/vwLxd6hhFvPbvKmBH) while both [expecting an intelligence explosion](https://sideways-view.com/2018/02/24/takeoff-speeds/). With respect to Yudkowsky's [returns on cognitive reinvestment](https://intelligence.org/files/IEM.pdf): understanding can be reinvested to improve understanding in abstract domains, but understanding in most real-world domains is limited by availability of information. Christiano has previously expressed uncertainty on '["Understanding" is discontinuous](https://sideways-view.com/2018/02/24/takeoff-speeds/)' as an argument for fast take-off. This post makes a case for specific local discontinuities in understanding that produce surges in advances while understanding is still globally incomplete. The next section elaborates arguments that lean towards a slow take-off, with limits of understanding as a significant factor in both its rate and ceiling.
+Eliezer Yudkowsky and Paul Christiano [disagree about the shape of AI takeoff](https://www.lesswrong.com/posts/vwLxd6hhFvPbvKmBH) while both [expecting an intelligence explosion](https://sideways-view.com/2018/02/24/takeoff-speeds/). With respect to Yudkowsky's [returns on cognitive reinvestment](https://intelligence.org/files/IEM.pdf): understanding can be reinvested to improve understanding in abstract domains, but understanding in most real-world domains is limited by availability of information. Christiano has previously expressed uncertainty on '["Understanding" is discontinuous](https://sideways-view.com/2018/02/24/takeoff-speeds/)' as an argument for fast takeoff. This post makes a case for specific local discontinuities in understanding that produce surges in advances while understanding is still globally incomplete. The next section elaborates arguments that lean towards a slow takeoff, with limits of understanding as a significant factor in both its rate and ceiling.
 
 ### 3.2. Growth and limits of understanding
 
@@ -245,7 +245,7 @@ Constructive or growing neural networks tend to add complexity; however, constru
 
 The arguments set out in this post are largely testable claims about intelligence, AGI, recursive improvement and a safer approach to AI improvement. Collectively, my claims make the case that:
 
-> An intelligence take-off could be “slow” — due to fundamental limits on understanding — and controllable and interpretable through human management of neural network growth.
+> An intelligence takeoff could be “slow” — due to fundamental limits on understanding — and controllable and interpretable through human management of neural network growth.
 
 Six questions can succinctly capture the four main sections of this post:
 
