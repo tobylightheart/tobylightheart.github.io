@@ -1,29 +1,104 @@
 ---
 layout: default
-title: This Website
+title: Toby Lightheart
+nav_exclude: true
 ---
-<h1 class="post-title">{{ page.title }}</h1>
+<div class="directory-page">
+  <header class="directory-hero">
+    <p class="directory-kicker">Independent machine learning researcher · Adelaide, Australia</p>
+    <h1>Toby Lightheart</h1>
+    <p class="directory-intro">Hi, I'm Toby Lightheart - an independent machine learning researcher in Adelaide, Australia.</p>
+    <p class="directory-purpose">This web page is a directory for my online activity.</p>
+  </header>
 
-My name is Toby Lightheart.
-I have created this website to communicate my machine learning research.
+  <section class="directory-section" aria-labelledby="current-work">
+    <div class="directory-section-heading">
+      <p class="directory-section-number" aria-hidden="true">01</p>
+      <div>
+        <h2 id="current-work">Current work</h2>
+        <p>I am the founding engineer at Symbol Farm where I do machine learning research (continual learning) and product development. For recent information, check out the company website and my Substack.</p>
+      </div>
+    </div>
 
-My primary machine learning research interest is continuous or life-long learning, i.e., machines that are capable of continuing to learn during operation. Some specific techniques that I am interested in exploring are:
+    <div class="directory-grid directory-grid-featured">
+      <a class="directory-card" href="https://www.symbolfarm.com/">
+        <span class="directory-card-type">Company</span>
+        <strong>Symbol Farm</strong>
+        <span>Machine learning research and product development</span>
+        <span class="directory-card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="directory-card" href="https://tobylightheart.substack.com/">
+        <span class="directory-card-type">Writing</span>
+        <strong>Substack</strong>
+        <span>Recent notes and essays</span>
+        <span class="directory-card-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
 
-- _Constructive algorithms_ to adapt the artificial neural networks size during operation to improve learning capabilities.
-- _Selective networks_ to use neuron activity to select which neurons take part in inference and training. 
+  <section class="directory-section" aria-labelledby="archive">
+    <div class="directory-section-heading">
+      <p class="directory-section-number" aria-hidden="true">02</p>
+      <div>
+        <h2 id="archive">Ideas over time</h2>
+        <p>To see some of the history and progression of my ideas on AI, learning, the meaning of life, and other philosophical thoughts, see:</p>
+      </div>
+    </div>
 
-I completed a PhD in Engineering at the University of Adelaide in Australia.
-My PhD thesis is titled *Constructive Spiking Neural Networks for Simulations of Neuroplasticity*.
-See my [Research page]({{site.baseurl}}{% link research.md %}) for some research outputs and a link to my thesis and a detailed summary.
+    <div class="directory-timeline">
+      <article class="directory-entry">
+        <p class="directory-year">2026</p>
+        <div>
+          <h3><a href="https://publish.obsidian.md/tobylightheart">Obsidian vault</a></h3>
+          <p>A digital garden of connected notes.</p>
+        </div>
+      </article>
 
-I'm currently employed as a Modelling and Simulation Engineering at Inovor Technologies.
+      <article class="directory-entry">
+        <p class="directory-year">2016–2022</p>
+        <div>
+          <h3><a href="https://tobylightheart.wordpress.com/">Learning: Methods and Machines</a></h3>
+          <p>WordPress writing on philosophy, learning, and machine intelligence. Example: <a href="https://tobylightheart.wordpress.com/2022/11/22/artificial-general-intelligence-some-thoughts/"><em>Artificial General Intelligence: some thoughts</em></a> (Nov 2022).</p>
+        </div>
+      </article>
 
-Project updates on various technology projects (machine learning, robotics, data science, embedded software, etc) will be made in [Posts]({{site.baseurl}}{% link posts.md %}).
+      <article class="directory-entry">
+        <p class="directory-year">2018–2021</p>
+        <div>
+          <h3><a href="{{ site.baseurl }}/posts/">GitHub technical blog</a></h3>
+          <p>Machine learning research and project notes. Example: <a href="{{ site.baseurl }}/writing/2018-11-12-first-steps-in-developing-selective-neural-networks.html"><em>First Steps in Developing Selective Neural Networks</em></a> (Nov 2018).</p>
+        </div>
+      </article>
 
-When work achieves sufficient maturity, it may be written up as a technical report or otherwise published and shared in [Research]({{site.baseurl}}{% link research.md %}).  
-Writing and essays on technologies and their use and implications may also appear here.
-I am planning to share code from these projects on GitHub: [https://github.com/tobylightheart](https://github.com/tobylightheart).
+      <article class="directory-entry">
+        <p class="directory-year">2018</p>
+        <div>
+          <h3><a href="https://github.com/tobylightheart/thesis-constructive-spiking/blob/main/thesis.pdf">PhD thesis</a></h3>
+          <p><em>Constructive Spiking Neural Networks for Simulations of Neuroplasticity</em>.</p>
+        </div>
+      </article>
 
-Literature surveys and reviews and notes from other study will appear in the [Study]({{site.baseurl}}{% link study.md %}) page. I am also experimenting with [TiddlyWiki](https://www.tiddlywiki.com) as a notebook for study and writing research notes: [my TiddlyWiki]({{site.baseurl}}tiddlywiki.html).
+      <article class="directory-entry">
+        <p class="directory-year">2011–2015</p>
+        <div>
+          <h3><a href="https://mindtheleap.wordpress.com/">Mind the Leap</a></h3>
+          <p>Earlier WordPress writing. Example: <a href="https://mindtheleap.wordpress.com/2012/09/16/values-and-artificial-super-intelligence/"><em>Values and Artificial Super-Intelligence</em></a> (Sep 2012).</p>
+        </div>
+      </article>
+    </div>
+  </section>
 
-I have another blog website ([tobylightheart.wordpress.com](https://tobylightheart.wordpress.com)) where I intend to discuss the development of learning techniques for people and a range of philosophical topics.
+  <section class="directory-section directory-connect" aria-labelledby="connect">
+    <div class="directory-section-heading">
+      <p class="directory-section-number" aria-hidden="true">03</p>
+      <div>
+        <h2 id="connect">Connect</h2>
+        <p>If you would like to connect, find me on:</p>
+      </div>
+    </div>
+    <div class="directory-links">
+      <a href="https://www.linkedin.com/in/tobylightheart/">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="https://x.com/TobyLightheart">Twitter/X <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</div>
