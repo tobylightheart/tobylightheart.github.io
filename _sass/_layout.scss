@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid var(--site-accent);
+    border-bottom: 1px solid var(--site-line);
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -20,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: var(--site-text);
     }
 }
 
@@ -33,7 +33,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: var(--site-text);
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -46,8 +46,8 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: var(--site-background);
+        border: 1px solid var(--site-line);
         border-radius: 5px;
         text-align: right;
 
@@ -65,7 +65,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: var(--site-text);
                 }
             }
         }
@@ -101,7 +101,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid var(--site-line);
     padding: $spacing-unit 0;
 }
 
@@ -118,7 +118,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: var(--site-muted);
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -189,7 +189,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: var(--site-muted);
 }
 
 .post-link {
@@ -249,11 +249,11 @@
  * Directory home
  */
 .directory-page {
-    --directory-ink: #14231d;
-    --directory-muted: #56665f;
-    --directory-accent: #b84a2b;
-    --directory-line: #d9ded9;
-    --directory-paper: #f5f1e8;
+    --directory-ink: var(--site-text);
+    --directory-muted: var(--site-muted);
+    --directory-accent: var(--site-accent);
+    --directory-line: var(--site-line);
+    --directory-paper: var(--site-panel);
     color: var(--directory-ink);
 }
 
@@ -287,13 +287,13 @@
     line-height: 0.98;
 }
 
-.directory-intro {
+.directory-introduction p:first-child {
     max-width: 640px;
     font-size: 22px;
     line-height: 1.45;
 }
 
-.directory-purpose {
+.directory-introduction p:last-child {
     color: var(--directory-muted);
     font-size: 18px;
 }
@@ -436,7 +436,7 @@
 .directory-links a:hover,
 .directory-links a:focus-visible {
     background: var(--directory-ink);
-    color: #fff;
+    color: var(--site-background);
     text-decoration: none;
 }
 
@@ -449,7 +449,7 @@
         font-size: 48px;
     }
 
-    .directory-intro {
+    .directory-introduction p:first-child {
         font-size: 19px;
     }
 

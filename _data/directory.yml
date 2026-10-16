@@ -1,0 +1,56 @@
+current_work:
+  heading: Current work
+  description: I am the founding engineer at Symbol Farm where I do machine learning research (continual learning) and product development. For recent information, check out the company website and my Substack.
+  links:
+    - type: Company
+      title: Symbol Farm
+      url: https://www.symbolfarm.com/
+      description: Machine learning research and product development
+    - type: Writing
+      title: Substack
+      url: https://tobylightheart.substack.com/
+      description: Recent notes and essays
+
+archive:
+  heading: Ideas over time
+  description: "To see some of the history and progression of my ideas on AI, learning, the meaning of life, and other philosophical thoughts, see:"
+  links:
+    - year: "2026"
+      title: Obsidian vault
+      url: https://publish.obsidian.md/tobylightheart
+      description: A digital garden of connected notes.
+    - year: "2016–2022"
+      title: "Learning: Methods and Machines"
+      url: https://tobylightheart.wordpress.com/
+      description: WordPress writing on philosophy, learning, and machine intelligence.
+      example_title: "Artificial General Intelligence: some thoughts"
+      example_url: https://tobylightheart.wordpress.com/2022/11/22/artificial-general-intelligence-some-thoughts/
+      example_date: Nov 2022
+    - year: "2018–2021"
+      title: GitHub technical blog
+      url: /posts/
+      description: Machine learning research and project notes.
+      example_title: First Steps in Developing Selective Neural Networks
+      example_url: /writing/2018-11-12-first-steps-in-developing-selective-neural-networks.html
+      example_date: Nov 2018
+    - year: "2018"
+      title: PhD thesis
+      url: https://github.com/tobylightheart/thesis-constructive-spiking/blob/main/thesis.pdf
+      description: Constructive Spiking Neural Networks for Simulations of Neuroplasticity
+      description_emphasis: true
+    - year: "2011–2015"
+      title: Mind the Leap
+      url: https://mindtheleap.wordpress.com/
+      description: Earlier WordPress writing.
+      example_title: Values and Artificial Super-Intelligence
+      example_url: https://mindtheleap.wordpress.com/2012/09/16/values-and-artificial-super-intelligence/
+      example_date: Sep 2012
+
+connect:
+  heading: Connect
+  description: "If you would like to connect, find me on:"
+  links:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/tobylightheart/
+    - title: Twitter/X
+      url: https://x.com/TobyLightheart

@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% assign directory = site.data.directory %}
+<div class="directory-page">
+  <header class="directory-hero">
+    <p class="directory-kicker">Independent machine learning researcher · Adelaide, Australia</p>
+    <h1>{{ page.title }}</h1>
+    <div class="directory-introduction">{{ content }}</div>
+  </header>
+
+  <section class="directory-section" aria-labelledby="current-work">
+    <div class="directory-section-heading">
+      <p class="directory-section-number" aria-hidden="true">01</p>
+      <div>
+        <h2 id="current-work">{{ directory.current_work.heading }}</h2>
+        <p>{{ directory.current_work.description }}</p>
+      </div>
+    </div>
+
+    <div class="directory-grid directory-grid-featured">
+      {% for link in directory.current_work.links %}
+      <a class="directory-card" href="{{ link.url | relative_url }}">
+        <span class="directory-card-type">{{ link.type }}</span>
+        <strong>{{ link.title }}</strong>
+        <span>{{ link.description }}</span>
+        <span class="directory-card-arrow" aria-hidden="true">↗</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="directory-section" aria-labelledby="archive">
+    <div class="directory-section-heading">
+      <p class="directory-section-number" aria-hidden="true">02</p>
+      <div>
+        <h2 id="archive">{{ directory.archive.heading }}</h2>
+        <p>{{ directory.archive.description }}</p>
+      </div>
+    </div>
+
+    <div class="directory-timeline">
+      {% for link in directory.archive.links %}
+      <article class="directory-entry">
+        <p class="directory-year">{{ link.year }}</p>
+        <div>
+          <h3><a href="{{ link.url | relative_url }}">{{ link.title }}</a></h3>
+          <p>{% if link.description_emphasis %}<em>{{ link.description }}</em>.{% else %}{{ link.description }}{% endif %}{% if link.example_url %} Example: <a href="{{ link.example_url | relative_url }}"><em>{{ link.example_title }}</em></a> ({{ link.example_date }}).{% endif %}</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="directory-section directory-connect" aria-labelledby="connect">
+    <div class="directory-section-heading">
+      <p class="directory-section-number" aria-hidden="true">03</p>
+      <div>
+        <h2 id="connect">{{ directory.connect.heading }}</h2>
+        <p>{{ directory.connect.description }}</p>
+      </div>
+    </div>
+    <div class="directory-links">
+      {% for link in directory.connect.links %}
+      <a href="{{ link.url | relative_url }}">{{ link.title }} <span aria-hidden="true">↗</span></a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
